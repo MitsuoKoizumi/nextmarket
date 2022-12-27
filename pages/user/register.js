@@ -21,7 +21,7 @@ const Register = () => {
     const handleSubmit = async (event) => {
         event.preventDefault() 
         try{
-            //fetchはデータの送信にも使える
+            
             const response = await fetch('http://localhost:3000/api/user/register',{
             method:'POST',
             headers:{
