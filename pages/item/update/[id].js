@@ -2,6 +2,9 @@ import {useState} from 'react'
 import useAuth from '../../../utils/useAuth'
 import Head from 'next/head'
 
+
+//commit test
+
 const UpdateItem = (props) =>{
     const [title, setTitle] = useState(props.singleItem.title)
     const [price, setPrice] = useState(props.singleItem.price)
